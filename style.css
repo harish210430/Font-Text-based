@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+    font-family: "Roboto", "Noto Sans", sans-serif;
+    padding: 22px;
+}
+
+
+/* Text-indent Property */
+p{
+    text-decoration: none;
+    /* text-indent: 32px; */
+}
+
+/* text-align property is used in block-level elements. the Text-align property is also used to align the inline and inline-block level element inside a container. */
+.section{
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Text-Shadow Property */
+h1,
+h2 {
+    color: crimson;
+    text-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3), 2px 8px 20px blue;
+}
